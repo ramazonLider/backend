@@ -9,3 +9,6 @@ def menu(request):
 
 def meals(request):
     return render(request, 'meals.html')
+
+def cart(request):
+    return render(request, 'cart.html')
